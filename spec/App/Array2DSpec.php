@@ -43,8 +43,30 @@ class Array2DSpec extends ObjectBehavior
     	$this->isValidCell(2,2,$array2d)->shouldReturn(true);
 
 
+    }
 
+    function it_can_find_sum_of_a_valid_cell()
+    {
+        $array2d = [
+            [2,4,6,1],
+            [1,5,3,9],
+            [9,3,1,6],
+            [8,2,4,5]
+        ];
+        $this->findValueOfCell(1,2,$array2d)->shouldReturn(24);
+    }
 
+    function it_can_count_hourGlass_max()
+    {
+        $array2d = [
+            [2,4,6,1],
+            [1,5,3,9],
+            [9,3,1,6],
+            [8,2,4,5]
+        ];
+
+        $sums = $this->findHourGlassSums($array2d);
+        $this->findMaxValue($sums)->shouldReturn(30);
     }
 
 }

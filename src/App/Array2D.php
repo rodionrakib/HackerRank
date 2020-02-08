@@ -23,6 +23,53 @@ class Array2D
     		return false;
     	}
     	return true;
+    }
 
+    public function findValueOfCell($row,$col,$array)
+    {
+        if($this->isValidCell($row,$col,$array))
+        {
+            return
+                $array[$row][$col]
+                + $array[$row-1][$col-1]
+                + $array[$row-1][$col]
+                + $array[$row-1][$col+1]
+                + $array[$row+1][$col+1]
+                + $array[$row+1][$col]
+                +$array[$row+1][$col-1];
+
+        }
+
+    }
+    public function findHourGlassSums($array)
+    {
+        $sums = [];
+
+
+        for ($i = 0 ; $i < count($array); $i++ )
+        {
+            for ($j = 0 ; $j <  count( $array[$i]) ; $j++ )
+            {
+                if ($this->isValidCell($i,$j,$array))
+                {
+                    $sums[] = $this->findValueOfCell($i,$j,$array);
+                }
+
+            }
+        }
+      ;
+        return $sums;
+    }
+
+    public function findMaxValue($array)
+    {
+
+        $max = $array[0];
+        for ($i = 1 ; $i < count($array);$i++)
+        {
+            if ($array[$i] > $max)
+                $max = $array[$i];
+        }
+        return $max;
     }
 }
