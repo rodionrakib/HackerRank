@@ -17,4 +17,12 @@ class ArrayLeftRotateSpec extends ObjectBehavior
         $array = [1,2,3,4,5];
         $this->rotateLeftByOne($array)->shouldReturn([2,3,4,5,1]);
     }
+
+    function it_is_rotate_by_any_offset()
+    {
+        $array = [1,2,3,4,5];
+        $this->rotateLeft($array,4)->shouldReturn([5,1,2,3,4]);
+    }
+
+
 }

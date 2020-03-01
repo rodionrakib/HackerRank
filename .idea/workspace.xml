@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7fef57e3-70ba-411c-b9d4-c458536be5e5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spec/App/ArrayLeftRotateSpec.php" beforeDir="false" afterPath="$PROJECT_DIR$/spec/App/ArrayLeftRotateSpec.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/ArrayLeftRotate.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/ArrayLeftRotate.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,11 +22,20 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/App/ArrayLeftRotate.php">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/App/Condition.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="360">
-                  <caret line="15" selection-start-line="15" selection-end-line="15" />
+                <state relative-caret-position="192">
+                  <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/App/Loop.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="528">
+                  <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
                 </state>
               </provider>
             </entry>
@@ -32,12 +43,12 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/spec/App/ArrayLeftRotateSpec.php">
+            <entry file="file://$PROJECT_DIR$/spec/App/LoopSpec.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="360">
-                  <caret line="16" column="25" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="25" />
+                  <caret line="16" column="31" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="31" />
                 </state>
               </provider>
             </entry>
@@ -56,6 +67,12 @@
         <option value="$PROJECT_DIR$/src/App/Array2D.php" />
         <option value="$PROJECT_DIR$/spec/App/ArrayLeftRotateSpec.php" />
         <option value="$PROJECT_DIR$/src/App/ArrayLeftRotate.php" />
+        <option value="$PROJECT_DIR$/src/App/Condition.php" />
+        <option value="$PROJECT_DIR$/spec/App/ConditionSpec.php" />
+        <option value="$PROJECT_DIR$/spec/App/PersonSpec.php" />
+        <option value="$PROJECT_DIR$/src/App/Person.php" />
+        <option value="$PROJECT_DIR$/spec/App/LoopSpec.php" />
+        <option value="$PROJECT_DIR$/src/App/Loop.php" />
       </list>
     </option>
   </component>
@@ -164,18 +181,21 @@
       <option name="presentableId" value="Default" />
       <updated>1581139252162</updated>
       <workItem from="1581139253523" duration="10054000" />
-      <workItem from="1581168816374" duration="1376000" />
+      <workItem from="1581168816374" duration="1507000" />
+      <workItem from="1581226046576" duration="4854000" />
+      <workItem from="1581236453329" duration="3678000" />
+      <workItem from="1581312548834" duration="1714000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11430000" />
+    <option name="totallyTimeSpent" value="21807000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1834" y="14" width="1477" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10585745" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15102328" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -200,13 +220,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/App/Array2D.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spec/App/Array2DSpec.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -216,15 +229,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/App/ArrayLeftRotateSpec.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="25" />
+        <state relative-caret-position="624">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App/ArrayLeftRotate.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1152">
+          <caret line="48" column="23" selection-start-line="48" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/App/ConditionSpec.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="912">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/Person.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/Array2D.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/App/PersonSpec.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/Condition.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/App/LoopSpec.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/Loop.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
         </state>
       </provider>
     </entry>
